@@ -1,0 +1,82 @@
+.cost-card__wrap {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+
+    background-color: #fafafac4;
+
+    border-radius: 20px;
+    border: 1px solid #d8d8d8;
+    box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.1);
+
+    position: relative;
+
+    transition: transform 0.2s ease-in, box-shadow 0.2s ease-in;
+
+    &:hover {
+        transform: translateY(-3px);
+        box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.3);
+    }
+
+    .cost-card__date {
+        width: 100px;
+        height: 100px;
+        background-color: #ffcc0087;
+        border-radius: 20px;
+        border: 1px solid #d8d8d8;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        font-weight: 700;
+        color: #125334;
+
+        .cost-date__month {
+            font-size: 18px;
+        }
+        .cost-data__year {
+            font-size: 21px;
+        }
+        .cost-data__day {
+            font-size: 31px;
+        }
+    }
+    .cost-card__title {
+        flex: 1 1 auto;
+        padding: 20px;
+        color: #373636e8;
+    }
+    .cost-card__title-none {
+        margin: auto;
+    }
+    .cost-card__price {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        margin-right: 20px;
+        min-width: 100px;
+        height: 35px;
+
+        background-color: #fff;
+        border-radius: 20px;
+        border: 1px solid #d8d8d8;
+    }
+    button {
+        position: absolute;
+        bottom: 7px;
+        right: 3px;
+        width: 30px;
+        height: 30px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+            display: block;
+        }
+    }
+}

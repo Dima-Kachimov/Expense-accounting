@@ -1,0 +1,64 @@
+.new-cost-form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+
+    .name-cost {
+        width: 200px;
+        height: 30px;
+        border-radius: 10px;
+        border: 0;
+        border: 1px solid #d8d8d8;
+        box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.1);
+
+        padding: 5px;
+    }
+    .amount-cost {
+        width: 200px;
+        height: 30px;
+        border-radius: 10px;
+        border: 0;
+        border: 1px solid #d8d8d8;
+        box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.1);
+
+        padding: 5px;
+    }
+    .date-cost {
+        width: 200px;
+        height: 30px;
+        border-radius: 10px;
+        border: 0;
+        border: 1px solid #d8d8d8;
+        box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.1);
+
+        padding: 5px;
+    }
+    .add-cost {
+        width: 200px;
+        height: 40px;
+        border-radius: 10px;
+        border: 0;
+        border: 1px solid #d8d8d8;
+        box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.1);
+        cursor: pointer;
+        text-transform: uppercase;
+    }
+    .cancel-cost {
+        width: 150px;
+        height: 40px;
+        border-radius: 10px;
+        border: 0;
+        border: 1px solid #d8d8d8;
+        box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.1);
+        text-transform: uppercase;
+        cursor: pointer;
+    }
+    label {
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+        font-weight: 500;
+        text-transform: uppercase;
+        font-size: 18px;
+    }
+}
