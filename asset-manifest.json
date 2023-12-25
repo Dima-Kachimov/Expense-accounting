@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/https/Dima-Kachimov.github.io/Expense-accounting/static/css/main.a7a8e450.css",
+    "main.js": "/https/Dima-Kachimov.github.io/Expense-accounting/static/js/main.1a9fd73b.js",
+    "index.html": "/https/Dima-Kachimov.github.io/Expense-accounting/index.html",
+    "main.a7a8e450.css.map": "/https/Dima-Kachimov.github.io/Expense-accounting/static/css/main.a7a8e450.css.map",
+    "main.1a9fd73b.js.map": "/https/Dima-Kachimov.github.io/Expense-accounting/static/js/main.1a9fd73b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a7a8e450.css",
+    "static/js/main.1a9fd73b.js"
+  ]
+}
